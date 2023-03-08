@@ -3,10 +3,12 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
-
-nav{
+.nav1{
     position: fixed;
     top: 0;
     width: 100%;
@@ -43,13 +45,35 @@ padding-inline:5px ;
     justify-content: center;
     gap: 0.5rem;
     margin-inline:200px ;
+    padding-bottom: 50px;
 
 }
 
 
 .container2{
     background-color: black;
+    display: flex;
+    justify-content: space-around;
 
 }
 
+.nav2{
+    color: white;
+}
 
+.parol2{
+    margin-top: 30px;
+}
+
+.social{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.social>*{
+    border: solid 1px;
+    background-color: white;
+    color: black;
+    margin-inline: 2px;
+
+}
