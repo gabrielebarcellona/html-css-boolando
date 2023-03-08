@@ -14,9 +14,9 @@ html{
     width: 100%;
     display: flex;
     color: white;
-  height: 60px;
-  background-color: rgba(237, 107, 0, 0.989);  
-  justify-content: space-around;
+    height: 60px;
+    background-color: rgba(237, 107, 0, 0.989);  
+    justify-content: space-around;
 }
 .parol{
     margin-top: 20px;
@@ -39,16 +39,70 @@ padding-inline:5px ;
 }
 
 .container{
-    flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 0.5rem;
-    margin-inline:200px ;
-    padding-bottom: 50px;
-
+    max-width:1000px;
+    margin-inline: auto;
+    margin-bottom: 30px;
 }
 
+.two-position{
+  position: relative;
+}
+
+.sconto-rosso{
+position: absolute;
+left: 0;
+top: 390px;
+border: solid red;
+background-color: red;
+color: white;
+}
+
+.tabella-verde{
+    position: absolute;
+    left: 45px;
+    top: 390px;
+    border: solid green;
+    background-color: green;
+    color: white;
+}
+
+.cuoricino{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    border: solid white 7px;
+    background-color: white;
+}
+
+.price{
+    color: red;
+}
+
+.prezzo-tagliato{
+    text-decoration: line-through;
+    color: black;
+}
+
+.one-position{
+    position: relative;
+}
+
+.no-position{
+    position: relative;
+}
+ 
+.tabella-verde2{
+    position: absolute;
+    left: 0;
+    top: 390px;
+    border: solid green;
+    background-color: green;
+    color: white;
+}
 
 .container2{
     background-color: black;
