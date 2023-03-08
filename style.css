@@ -21,8 +21,12 @@ html{
 }
 .parol{
     margin-top: 20px;
-    
 }
+
+.parol:hover{
+cursor: pointer;
+}
+
 .logo{
   margin-top: 15px;
   height: 30px;
@@ -79,9 +83,13 @@ color: white;
     background-color: white;
 }
 
-.back-image:hover img {
-background-image: url(img/1b.webp);
+.cuoricino:hover{
+color: red;
 
+}
+
+.back-image :hover{
+background-image: url(img/1b.webp);
 
 }
 
