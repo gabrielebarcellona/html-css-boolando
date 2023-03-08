@@ -17,6 +17,7 @@ html{
     height: 60px;
     background-color: rgba(237, 107, 0, 0.989);  
     justify-content: space-around;
+    z-index: 1;
 }
 .parol{
     margin-top: 20px;
@@ -76,6 +77,12 @@ color: white;
     top: 10px;
     border: solid white 7px;
     background-color: white;
+}
+
+.back-image:hover img {
+background-image: url(img/1b.webp);
+
+
 }
 
 .price{
